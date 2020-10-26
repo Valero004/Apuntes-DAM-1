@@ -1,0 +1,24 @@
+C:\Users\Usuario DAM1> cd Desktop
+
+C:\Users\Usuario DAM1\Desktop> notepad HolaMundo.java
+
+C:\Users\Usuario DAM1\Desktop>cd C:\Program Files\Java\jdk-14.0.2\bin
+
+C:\Program Files\Java\jdk-14.0.2\bin>javac "C:\Users\Usuario DAM1\Desktop\HolaMundo.java"
+
+C:\Program Files\Java\jdk-14.0.2\bin>cd "C:\Users\Usuario DAM1\Desktop"
+
+C:\Users\Usuario DAM1\Desktop>java HolaMundo
+
+establecemos como carpeta el Desktop
+creamos un notepad y establecemos el nombre de la clase como nombre del archivo, 
+teniendo en cuenta las mayusculas
+copiamos la localizacion de javac
+establecemos la localizacion del javac
+buscamos el javac y ponemos la localizacion del archivo HolaMundo.java
+establecemos como carpeta principal la localización del archivo Hola mundo 
+desde la carpeta ejecutamos en java el HolaMundo, es posible que de error
+
+
+
+el cd vale para meterme dentro de la carpeta
