@@ -1,0 +1,13 @@
+create detabas "nombre"		_____________ Ejecutar
+
+use "nombre de base de datos" 	_____________ Ejecutar
+
+create table "nombre"
+(
+DNI varchar(9) primary key,
+Nombre char(15) not null,
+Apellidos char (35) not null,
+Telefono varchar (9) not null,
+Fec_nac date not null,
+Fec_alta datetime not null
+)				_____________ Ejecutar
