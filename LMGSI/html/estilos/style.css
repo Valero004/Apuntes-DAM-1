@@ -1,0 +1,13 @@
+.imagen{
+	float: left;
+	width: 200px;
+	border: 0px;
+}
+.texto{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	float: right;
+	margin: 20px;
+	border: 0px;
+}
