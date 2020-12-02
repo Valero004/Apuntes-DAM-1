@@ -7,6 +7,7 @@
 	<!--[if IE 6]>
 		<link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
 	<![endif]-->
+	<link rel="icon" type="image/x-icon" href="css/images/icono.ico">
 	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery-func.js"></script>
 </head>
@@ -30,9 +31,10 @@
 			<ul>
 			    <li><a  href="cartelera.html">CARTELERA</a></li>
 			    <li><a  href="info.html">SOBRE NOSOTROS</a></li>
-			    <li><a href="taquilla.html">CONSIGUE TU ENTRADA</a></li>
+			    <li><a  class="active" href="club.html">CLUB</a></li>
+			    <li><a  href="taquilla.html">CONSIGUE TU ENTRADA</a></li>
 			    <li><a href="covid.html">INFORMACIÓN COVID</a></li>
-			    <li><a class="active" href="contacto.html">CONTACTO</a></li>
+			    <li><a href="contacto.html">CONTACTO</a></li>
 			</ul>
 		</div>
 		<!-- end Navigation -->					
@@ -44,36 +46,41 @@
 		<!-- NEWS -->
 		<div id="news">
 			<div class="head">
-				<h3>QUÉ DECIRNOS</h3>
+				<h3>¿QUÉ ES EL CLUB?</h3>
 			</div>
 			<br>
 			<br>
-			<br>
 			<div class="content">
-				<p>Puedes contactarnos para 
-					<ul type="square" style="margin-left: 20px">
-						<li>Unirte a nosotros</li>
-						<li>Contarnos tus ideas</li>
-						<li>Hacernos sujerencias</li>
-						<li>Hacer reclamaciones</li>
-						<li>Hacer donaciones</li>
-						<li>Informarte sobre eventos</li>
-					</ul></p>
+				<p>Bienvenidos al nuevo club.</p>
+				<p>¿Quíeres estar al día de tosos nuestros eventos o de nuestras novedades? Pues solo tienes que enviarnos tu correo o rellenar el formulario que planteado en esté apartado. </p>
+				<p>Una vez enviado el forrmulario se pondrá en marta tu solicitud y en un par de semanas ya tendras tu carné de socio con el que podras acceder a eventos especiales, ser e primero en saber las novedades y colavorar en futuras actividades.</p>
 			</div>
 		</div>
 		<!-- end NEWS -->
 		<!-- Coming -->
 		<div id="coming">
 			<div class="head">
-				<h3>CONTACTANOS</h3>
+				<h3>FORMULARIO</h3>
 			</div>
 			<div class="content">
-						<form id="form" class="topBefore">
-		  					<input id="name" type="text" placeholder="NAME">
-		 			 		<input id="email" type="text" placeholder="E-MAIL">
-		  					<textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-  						<input id="submit" type="submit" value="GO!">
-					</form>
+				<form id="form" class="topBefore">
+					<p>NOMBRE</p>
+	  				<input id="name" type="text" value="Nombre y apellidos">
+	  				<br>
+	  				<p>E-MAIL</p>
+				 	<input id="email" type="text" value="ejemplo@ejemplo.com">
+				 	<br>
+				 	<p>FECHA DE NACIMIENTO</p>
+				 	<input id="date" type="date">
+				 	<br>
+				 	<p>DIRECCIÓN</p>
+				 	<input type="text" name="dirección" value="Dirección">
+				 	<input type="text" name="dirección" value="Código postal">
+				 	<input type="text" name="dirección" value="Piso">
+				 	<input type="text" name="dirección" value="Escalera">
+				 	<input type="text" name="dirección" value="Portal">
+  					<input id="submit" type="submit" value="ENVIAR">
+				</form>				
 			</div>
 			
 		</div>
@@ -83,10 +90,11 @@
 	<!-- end Main -->
 
 	<!-- Footer -->
-	<div id="footer">
+<div id="footer">
 		<p>
 			<a href="cartelera.html">CARTELERA</a> <span>|</span>
 			<a href="info.html">SOBRE NOSOTROS</a> <span>|</span>
+			<a href="club.html">CLUB</a> <span>|</span>
 			<a href="taquilla.html">CONSIGUE TU ENTRADA</a> <span>|</span>
 			<a href="covid.html">INFORMACIÓN COVID </a> <span>|</span>
 			<a href="contacto.html">CONTACTO</a> <span>|</span>

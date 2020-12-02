@@ -88,7 +88,7 @@ h1#logo a { float:left; width:239px; height:49px; background:url('images/logo.gi
 #news h3, #coming h3 { float:left;  }
 
 #coming { width:490px; float:left; padding-left:30px; }
-#coming .head { width:490px; padding-top:11px; padding-bottom:14px;  }
+#coming .head { width:490px; padding-top:11px; padding-bottom:14px; }
 #coming .head strong { color:#ff361a; }
 #coming .content { min-height:130px; height: auto !important; height:130px; padding-bottom:20px;align-content: center; }
 #coming .content h4 { padding-bottom:3px; }
@@ -109,6 +109,7 @@ h1#logo a { float:left; width:239px; height:49px; background:url('images/logo.gi
 
 #form {
   position: relative;
+  border: 1px;
   width: 400px;
   margin: 50px auto 100px auto;
 }
@@ -184,4 +185,8 @@ textarea:hover {
 
 #submit:hover {
   	color: #e2dedb;
+}
+
+.formulario {
+  border: 2px;
 }
